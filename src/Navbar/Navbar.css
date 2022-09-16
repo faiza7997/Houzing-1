@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parentNav{
+    display: flex;
+    justify-content: space-around;
+    height: 64px;
+    background-color: #0D263B;
+}
+.childNav{
+    display: flex;
+    align-items: center;
+}
+h6{
+    color: white;
+    margin-left: 40px;
+    margin-top: 0;
+    position: absolute;
+}
+.icon{
+    
+    position: absolute;
+
+}
+.childText{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.anchor{
+    color: white;
+    text-decoration: none;
+    transition: 2s;
+}
+.anchor:hover{
+    color: orange;
+}
+.parentbtn{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    border-color: white;
+    background-color: #0D263B ;
+    color: white;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}

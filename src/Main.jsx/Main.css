@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.CardColor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: crimson; */
+    gap: 20px;
+}
+.hi{
+    margin-top: 106px ;
+    background-color: #E6E9EC;
+    /* height: 429px; */
+    width: 380px;
+    position: relative;
+    
+}
+.textCard{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Montserrat';
+    color:  #0D263B;
+}
+.cardText{
+    padding-left: 20px;
+    padding-top: 4px;
+    color: #696969;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Montserrat';
+}
+.delBtn{
+    cursor: pointer;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    width: 49px;
+    background-color: #FF0000;
+    color: white;
+    border-color: #FF0000;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
